@@ -6,7 +6,7 @@ public class ShoppingCart {
     public static void main(String[] args){
         // Declare and initialize String variables.  Do not initialize message yet.
         String custName= "Mary Smith", itemDesc="Shirt";
-        String message="hhh";
+        String message="hh";
         // Assign the message variable 
         message = custName + " wants to purcase " + itemDesc;
         // Print and run the code1
