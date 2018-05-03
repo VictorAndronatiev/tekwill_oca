@@ -19,7 +19,10 @@ public class ShoppingCart {
         for (String item : items){
             System.out.print(item + ", ");
         }
+
+        System.out.println(message);
         for(int i=0; i<items.length; i++)
+            if(i%2 == 1)
             System.out.println(items[i]+ ", ");
     }
 }
